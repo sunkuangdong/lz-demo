@@ -17,5 +17,20 @@ export default {
 <style scoped lang='scss'>
 .g-button {
   font-size: 14px;
+  height: 24px;
+  padding: 0 1em;
+  border-radius: 2px;
+  border: 1px solid #cccccc;
+  background-color: white;
+  &:hover {
+    border-color: cornflowerblue;
+  }
+  &:active {
+    background-color: deepskyblue;
+    color: white;
+  }
+  &:focus {
+    outline: none;
+  }
 }
 </style>
